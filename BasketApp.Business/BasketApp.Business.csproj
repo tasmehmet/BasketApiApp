@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasketApp.DataAccess\BasketApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BasketApp.Dto\BasketApp.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

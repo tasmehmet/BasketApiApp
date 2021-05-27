@@ -1,0 +1,12 @@
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\bin\Debug\net5.0\BasketApp.Entity.deps.json
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\bin\Debug\net5.0\BasketApp.Entity.dll
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\bin\Debug\net5.0\ref\BasketApp.Entity.dll
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\bin\Debug\net5.0\BasketApp.Entity.pdb
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.AssemblyInfoInputs.cache
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.AssemblyInfo.cs
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.dll
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\ref\BasketApp.Entity.dll
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.pdb
+C:\Users\mehmet.tas\source\repos\BasketApp\BasketApp.Entity\obj\Debug\net5.0\BasketApp.Entity.csprojAssemblyReference.cache

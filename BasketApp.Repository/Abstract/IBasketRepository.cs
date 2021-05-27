@@ -1,0 +1,13 @@
+﻿using BasketApp.Entity;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BasketApp.Repository.Abstract
+{
+    public interface IBasketRepository : IRepository<Basket>
+    {
+    }
+}

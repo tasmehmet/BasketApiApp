@@ -1,0 +1,603 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Api\\BasketApp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Api\\BasketApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Api\\BasketApp.Api.csproj",
+        "projectName": "BasketApp.Api",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Api\\BasketApp.Api.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\BasketApp.IoC.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\BasketApp.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\BasketApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\BasketApp.Business.csproj",
+        "projectName": "BasketApp.Business",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\BasketApp.Business.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj",
+        "projectName": "BasketApp.DataAccess",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj",
+        "projectName": "BasketApp.Data",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj",
+        "projectName": "BasketApp.Dto",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\BasketApp.Dto.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj",
+        "projectName": "BasketApp.Entity",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\BasketApp.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\BasketApp.IoC.csproj",
+        "projectName": "BasketApp.IoC",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\BasketApp.IoC.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\BasketApp.Business.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Business\\BasketApp.Business.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.DataAccess\\BasketApp.DataAccess.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj",
+        "projectName": "BasketApp.Repository",
+        "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\BasketApp.Repository.csproj",
+        "packagesPath": "C:\\Users\\mehmet.tas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mehmet.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Data\\BasketApp.Data.csproj"
+              },
+              "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\mehmet.tas\\source\\repos\\BasketApp\\BasketApp.Entity\\BasketApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
